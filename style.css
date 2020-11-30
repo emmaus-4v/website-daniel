@@ -17,6 +17,9 @@ main {
 }
 
 
+}
+
+
 article {
     text-align: justify;
 }
@@ -37,7 +40,19 @@ footer {
 /* specifieke stijlen */
 
 img.zweefLinks {
-    float: left;
+    float: right;
+    margin-right: 15px;
+
+}
+
+.blijemantekst {
+
+
+}
+
+.blijeman {
+    float: right;
+    width: 40%;
     margin-right: 15px;
 }
 
