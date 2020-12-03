@@ -3,7 +3,7 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: rgb(227, 255, 253);
+    background-color: rgb(234, 255, 253);
     
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
@@ -20,6 +20,8 @@ main {
 }
 
 
+
+
 article {
     text-align: justify;
 }
@@ -28,6 +30,10 @@ article {
 header {
     color: rgb(41, 41, 41);
     text-align: center;
+    background-image: url('afbeeldingen/dollllaaar.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 700px;
 }
 
 
@@ -63,6 +69,11 @@ img.zweefLinks {
 a {
     color: rgb(153, 0, 0);
     text-decoration: none;
+}
+
+#hoofdtitel {
+    font-family:cursive;
+    font-weight:bold;
 }
 
 a:hover {
