@@ -80,6 +80,11 @@ a:hover {
     text-decoration: underline;
 }
 
+.links {
+    color: blue;
+    font-family: cursive;
+}
+
 
 /* navigatiebalk */
 nav ul {
