@@ -1,3 +1,36 @@
+/* Animaties */
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 5s;
+}
+
+@keyframes slide {
+    0%  {
+        left: -200px;
+    }
+
+    100%    {
+        left: 0px;
+    }
+
+}
+
+.slider {
+    animation: slide;
+}
+
+
+
 /* Basislayout */
 
 html, body {
@@ -15,11 +48,6 @@ main {
     width: 700px;
     position: relative;
 }
-
-
-}
-
-
 
 
 article {
@@ -51,10 +79,6 @@ img.zweefLinks {
 
 }
 
-.blijemantekst {
-
-
-}
 
 .blijeman {
     float: right;
