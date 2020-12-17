@@ -11,23 +11,10 @@
 }
 
 .fade-in {
-    animation: fadeIn 5s;
+    animation: fadeIn 5s ;
 }
 
-@keyframes slide {
-    0%  {
-        left: -200px;
-    }
 
-    100%    {
-        left: 0px;
-    }
-
-}
-
-.slider {
-    animation: slide;
-}
 
 
 
@@ -73,21 +60,32 @@ footer {
 
 /* specifieke stijlen */
 
-img.zweefLinks {
+img#zweefLinks {
     float: right;
     margin-right: 15px;
+    padding: 15px;
 
 }
 
+.tekst {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
 
 .blijeman {
     float: right;
     width: 40%;
     margin-right: 15px;
+    padding: 15px;
 }
 
 .smalltext {
     font-size: 0.7em;
+}
+
+.kopje {
+    color:red;
+    background-color:pink;
+    text-align: center;
 }
 
 a {
